@@ -1,0 +1,9 @@
+Dimension:10:10:
+mode:HA:
+porte-avion:5:
+porte-avion:5:
+fregate:4:
+patrouilleur:3:
+sous-marin:2:
+sous-marin:2:
+remorqueur:1:

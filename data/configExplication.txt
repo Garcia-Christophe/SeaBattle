@@ -1,0 +1,19 @@
+Explication de la structure des fichiers de configurations :
+
+	- config1.txt :
+Les modes sont les suivants : HH, AH/HA, AA.
+Les noms des bateaux sont les suivants : porte-avion, fregate, patrouilleur, sous-marin, remorqueur.
+Vous pouvez ajouter autant de lignes que vous le voulez concernant les bateaux.
+Attention cependant à qu'ils puissent tous rentrer dans votre grille.
+Voici la structure :
+
+Dimension:longueurAxeX:longueurAxeY:
+mode:2Lettres:
+nomDuBateau:saTaille:
+
+	- config2.txt/config3.txt :
+Les directions sont les suivantes : HORIZONTAL, VERTICAL.
+Vous ajoutez autant de lignes (correspondantes) qu'il y a de bateaux dans config1.txt.
+Voici la structure :
+
+nomDuBateau:direction:saCoordonneeEnX:saCoordonneeEnY:
